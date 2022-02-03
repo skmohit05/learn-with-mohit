@@ -1,4 +1,4 @@
-package com.learnwithmohit.model;
+package com.learnwithmohit.entity;
 
 import lombok.Data;
 

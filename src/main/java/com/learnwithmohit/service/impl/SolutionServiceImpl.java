@@ -2,8 +2,8 @@ package com.learnwithmohit.service.impl;
 
 import com.learnwithmohit.dto.SolutionDto;
 import com.learnwithmohit.exception.ResourceNotFoundException;
-import com.learnwithmohit.model.Solution;
-import com.learnwithmohit.model.User;
+import com.learnwithmohit.entity.Solution;
+import com.learnwithmohit.entity.User;
 import com.learnwithmohit.repository.SolutionRepository;
 import com.learnwithmohit.repository.UserRepository;
 import com.learnwithmohit.service.SolutionService;
@@ -11,9 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.script.*;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.util.List;
 
 @Service
 public class SolutionServiceImpl implements SolutionService {

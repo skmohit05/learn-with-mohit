@@ -1,9 +1,7 @@
 package com.learnwithmohit.controller;
 
 import com.learnwithmohit.dto.SolutionDto;
-import com.learnwithmohit.model.Solution;
 import com.learnwithmohit.service.SolutionService;
-import com.learnwithmohit.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

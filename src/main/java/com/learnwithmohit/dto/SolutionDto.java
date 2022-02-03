@@ -1,6 +1,6 @@
 package com.learnwithmohit.dto;
 
-import com.learnwithmohit.model.Solution;
+import com.learnwithmohit.entity.Solution;
 import lombok.Data;
 
 @Data
